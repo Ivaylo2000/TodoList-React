@@ -1,0 +1,48 @@
+.model {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  border-radius: 10px;
+  height: 100px;
+  background-color: #333;
+  justify-content: space-evenly;
+}
+
+.ulContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px 25px 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+input,
+.AddBtn {
+  border-radius: 5px;
+  font-size: larger;
+  border: 2px solid #444;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+li > button {
+  float: right;
+  border: 2px solid #444;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
